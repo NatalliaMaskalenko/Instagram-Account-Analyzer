@@ -3,8 +3,7 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(./SF-Pro.ttf) format("truetype"),
-    url(./SF-Pro-Text-Regular.otf) format("opentype");
+  src: url(../../fonts/SF-Pro-Text-Regular.otf) format("opentype");
 }
 
 @font-face {
@@ -12,8 +11,7 @@
   font-style: normal;
   font-weight: 500;
   font-display: swap;
-  src: url(./SF-Pro.ttf) format("truetype"),
-    url(./SF-Pro-Text-Medium.otf) format("opentype");
+  src: url(../../fonts/SF-Pro-Text-Medium.otf) format("opentype");
 }
 
 @font-face {
@@ -21,8 +19,7 @@
   font-style: normal;
   font-weight: 600;
   font-display: swap;
-  src: url(./SF-Pro.ttf) format("truetype"),
-    url(./SF-Pro-Text-Semibold.otf) format("opentype");
+  src: url(../../fonts/SF-Pro-Text-Semibold.otf) format("opentype");
 }
 
 @font-face {
@@ -30,6 +27,5 @@
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url(./SF-Pro.ttf) format("truetype"),
-    url(./SF-Pro-Text-Bold.otf) format("opentype");
+  src: url(../../fonts/SF-Pro-Text-Bold.otf) format("opentype");
 }

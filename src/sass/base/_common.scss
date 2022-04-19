@@ -1,0 +1,31 @@
+h1,
+h2,
+h3,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+
+.is-hidden {
+  display: none;
+}
+
+body {
+  font-family: "SF-Pro-Text";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 1.18;
+
+  color: var(--main-text-color);
+
+  //   background-color: var(--modal-text-color);
+}
+
+.list {
+  list-style-type: none;
+}
