@@ -1,0 +1,31 @@
+.container_home {
+background-image: url('/images/images/bg-home-mobile.png');
+height: 587px;
+width: 100%;
+// background-size: cover;
+background-position: center top;
+background-repeat: no-repeat;
+
+@media (min-device-pixel-ratio: 2),
+(-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    background-image: url('/images/images/bg-home-mobile@2x.png');
+}
+
+@media screen and(min-width: 1280px) {
+    max-width: 1440px;
+    height: 100%;
+  
+    // background-size: cover;
+    background-position: right top;
+    background-image: url('/images/images/bg-desktop.png');
+
+    @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        background-image: url('/images/images/bg-desktop@2x.png');
+    }
+}
+}

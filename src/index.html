@@ -13,26 +13,53 @@
   </head>
   <body>
     <main>
-      <section>
-        <img src="" alt="" />
-        <h1>Instagram Account <span>Analyzer</span></h1>
-        <p>
-          Check who has unfollowed you, who is interested in your profile, who
-          visits your page, how interesting your friends’ profiles are, and
-          more!
-        </p>
-        <a href="">Start analysing!</a>
-      </section>
-      <footer>
-        <ul>
-          <li><a href="">Terms and Conditions</a></li>
-          <li><a href="">Privacy Policy</a></li>
-          <li>
-            <a href="mailto:shancegames@gmail.com">shancegames@gmail.com</a>
-          </li>
-        </ul>
-        <p>Copyright&#169; 2022 FreshJuiceMobile. All rights Reserved</p>
-      </footer>
+      <div class="container_home">
+        <section class="hero">
+          <picture class="hero_img">
+            <source
+              srcset="
+                /images/images/logo-desktop.png    1x,
+                /images/images/logo-desktop@2x.png 2x
+              "
+              media="(min-width: 1440px)"
+            />
+            <source
+              srcset="
+                /images/images/logo-mobile.png    1x,
+                /images/images/logo-modile@2x.png 2x
+              "
+              media="(min-width: 320px)"
+            />
+            <img src="./images/images/logo-desktop.png" alt="logo" />
+          </picture>
+
+          <h1 class="hero_title">Instagram Account <span>Analyzer</span></h1>
+          <p>
+            Check who has unfollowed you, who is interested in your profile, who
+            visits your page, how interesting your friends’ profiles are, and
+            more!
+          </p>
+          <a class="hero-link" href="">Start analysing!</a>
+        </section>
+        <footer class="footer">
+          <ul class="footer_list">
+            <li class="footer_item">
+              <a class="footer_link" href="">Terms and Conditions</a>
+            </li>
+            <li class="footer_item">
+              <a class="footer_link" href="">Privacy Policy</a>
+            </li>
+            <li class="footer_item">
+              <a class="footer_link" href="mailto:shancegames@gmail.com"
+                >shancegames@gmail.com</a
+              >
+            </li>
+          </ul>
+          <p class="footer-text">
+            Copyright&#169; 2022 FreshJuiceMobile. All rights Reserved
+          </p>
+        </footer>
+      </div>
     </main>
 
     <script src="./index.js"></script>
