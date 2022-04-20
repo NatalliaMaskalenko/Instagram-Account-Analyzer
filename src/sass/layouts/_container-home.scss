@@ -1,7 +1,9 @@
 .container_home {
+    // margin-left: auto;
+    // margin-right: auto;
 background-image: url('/images/images/bg-home-mobile.png');
 height: 587px;
-width: 100%;
+width: 100vw;
 // background-size: cover;
 background-position: center top;
 background-repeat: no-repeat;
@@ -14,7 +16,7 @@ background-repeat: no-repeat;
 }
 
 @media screen and(min-width: 1280px) {
-    max-width: 1440px;
+    width: 100vw;
     height: 100%;
   
     // background-size: cover;
