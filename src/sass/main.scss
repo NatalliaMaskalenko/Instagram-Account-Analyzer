@@ -2,6 +2,13 @@
 @import "./base/common";
 @import "./base/container";
 @import "./base/fonts";
-@import "./layouts/container-home";
-@import "./layouts/home";
+@import "./components/container-home";
+@import "./components/container-welcome-page-first";
+@import "./components/button";
+@import "./components/container-welcome-page-second";
+@import "./components/container-welcome-page-third";
+@import "./layouts/home-page";
+@import "./layouts/welcome-page";
+@import "./layouts/sign-in-page";
+
 
