@@ -14,33 +14,69 @@
   </head>
   <body>
     <main>
-      <div class="container_paymant-page container">
-        <section class="">
-          <img
-            class=""
-            srcset="
-              ../images/images/logo-mobile.png    1x,
-              ../images/images/logo-modile@2x.png 2x
-            "
-            src="../images/images/logo-mobile.png"
-            alt="logo"
-          />
-          <h1 class="title">Time Limited Sale</h1>
-          <p class="text">Grab the deal before it’s too late!</p>
-
-          <div class="timer" id="timer-1">
-            <div class="field">
-              <span class="value" data-value="hours">00</span>
-            </div>
-            <div class="field">
-              <span class="value" data-value="mins">00</span>
-            </div>
-          </div>
-
-          <a class="button" href="">Get InstaTracker</a>
-        </section>
-      </div>
+      <div class="container_paymant-page container"></div>
     </main>
+
+    <!-- Modal -->
+
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button class="modal__btn-close" data-modal-close>
+          <svg class="modal__icon">
+            <use href=""></use>
+          </svg>
+        </button>
+        <h2 class="modal__title">Оставьте свои данные, мы вам перезвоним</h2>
+        <form>
+          <label class="form__label">
+            <span class="form__text">Имя</span>
+            <span class="form__container">
+              <input class="form__field" type="text" name="username" />
+            </span>
+          </label>
+
+          <label class="form__label">
+            <span class="form__text">Имя</span>
+            <span class="form__container">
+              <input class="form__field" type="text" name="username" />
+            </span>
+          </label>
+
+          <label class="form__label">
+            <span class="form__text">Имя</span>
+            <span class="form__container">
+              <input class="form__field" type="text" name="username" />
+            </span>
+          </label>
+
+          <label class="form__label">
+            <span class="form__text">Имя</span>
+            <span class="form__container">
+              <input class="form__field" type="text" name="username" />
+            </span>
+          </label>
+
+          <label class="form__label">
+            <span class="form__text">Имя</span>
+            <span class="form__container">
+              <input class="form__field" type="text" name="username" />
+            </span>
+
+            <span class="form__container">
+              <input class="form__field" type="text" name="username" />
+            </span>
+          </label>
+
+          <label class="form__label">
+            <span class="form__text">Имя</span>
+            <span class="form__container">
+              <input class="form__field" type="text" name="username" />
+            </span>
+          </label>
+        </form>
+      </div>
+    </div>
+
     <script src="../js/timer.js"></script>
   </body>
 </html>
