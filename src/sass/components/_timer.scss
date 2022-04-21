@@ -1,0 +1,24 @@
+.timer{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    padding-left: 107px;
+    padding-right: 107px;
+};
+
+.field{
+    width: 87px;
+    height: 95px;
+    background: #FFFFFF;
+    border: 2px solid #D8D8D8;
+    border-radius: 16px;
+    
+    &:not(:last)
+};
+
+.value{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 57px;
+    color: var(--main-text-color);
+};
