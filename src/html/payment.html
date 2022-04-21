@@ -14,50 +14,87 @@
   </head>
   <body>
     <main>
-      <div class="container_paymant-page container"></div>
+      <div class="container_paymant-page container">
+        <section class="header-section">
+          <img
+            class="header-section-img"
+            srcset="
+              ../images/images/logo-mobile.png    1x,
+              ../images/images/logo-modile@2x.png 2x
+            "
+            src="../images/images/logo-mobile.png"
+            alt="logo"
+          />
+          <h1 class="header-section_title title">
+            Time Limited <span class="header-section_title-accent">Sale</span>
+          </h1>
+          <p class="header-section_text text">
+            Grab the deal before it’s too late!
+          </p>
+
+          <div class="timer" id="timer-1">
+            <div class="field field-accent">
+              <span class="value" data-value="hours">00</span>
+            </div>
+            <div class="timer-wrap">
+              <span class="timer-point"></span>
+              <span class="timer-point"></span>
+            </div>
+
+            <div class="field">
+              <span class="value" data-value="mins">00</span>
+            </div>
+          </div>
+
+          <a class="button" href="">Get InstaTracker</a>
+        </section>
+      </div>
     </main>
 
     <!-- Modal -->
 
-    <div class="backdrop is-hidden" data-modal>
+    <div class="backdrop" data-modal>
       <div class="modal">
-        <button class="modal__btn-close" data-modal-close>
-          <svg class="modal__icon">
-            <use href=""></use>
-          </svg>
-        </button>
-        <h2 class="modal__title">Оставьте свои данные, мы вам перезвоним</h2>
-        <form>
+        <div class="modal-wrap">
+          <h2 class="modal__title">Payment</h2>
+          <button class="modal__btn-close" data-modal-close>
+            <svg class="modal__icon">
+              <use href="../images/icons/symbol-defs.svg#icon-cross"></use>
+            </svg>
+          </button>
+        </div>
+
+        <form class="form">
           <label class="form__label">
-            <span class="form__text">Имя</span>
+            <span class="form__text">Email:</span>
             <span class="form__container">
               <input class="form__field" type="text" name="username" />
             </span>
           </label>
 
           <label class="form__label">
-            <span class="form__text">Имя</span>
+            <span class="form__text">First Name:</span>
             <span class="form__container">
               <input class="form__field" type="text" name="username" />
             </span>
           </label>
 
           <label class="form__label">
-            <span class="form__text">Имя</span>
+            <span class="form__text">Last Name:</span>
             <span class="form__container">
               <input class="form__field" type="text" name="username" />
             </span>
           </label>
 
           <label class="form__label">
-            <span class="form__text">Имя</span>
+            <span class="form__text">Card Number:</span>
             <span class="form__container">
               <input class="form__field" type="text" name="username" />
             </span>
           </label>
 
           <label class="form__label">
-            <span class="form__text">Имя</span>
+            <span class="form__text">Expires on:</span>
             <span class="form__container">
               <input class="form__field" type="text" name="username" />
             </span>
@@ -68,7 +105,7 @@
           </label>
 
           <label class="form__label">
-            <span class="form__text">Имя</span>
+            <span class="form__text">CVC:</span>
             <span class="form__container">
               <input class="form__field" type="text" name="username" />
             </span>
