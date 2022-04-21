@@ -1,0 +1,86 @@
+.header-main-page_img{
+    width: 70px;
+    height: 70px;
+};
+
+.header-main-page_wrap{
+display: flex;
+padding-right: 43px;
+padding-left: 36px;
+padding-top: 85px;
+padding-bottom: 34px;
+justify-content: space-between;
+};
+
+.header-main-page_title{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.2;  
+    padding-bottom: 8px;
+};
+
+.header-main-page_text{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.2;
+    color:var(--text-footer-color);    
+};
+
+.header-main-page_list{
+    display: flex;
+    padding-right: 53px;
+    padding-left: 53px;
+    padding-bottom: 9px;
+    justify-content: space-between;
+    border-bottom: 1px solid #D8D8D8;   
+};
+
+.header-main-page_contents{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
+    color:var(--text-footer-color);
+};
+
+.header-main-page_sum{
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 1.18;
+    text-align: center;
+};
+
+.item--accent{
+    border-right: 1px solid #D8D8D8;
+    padding-right: 30px;
+};
+
+.hero-main-page{
+    padding-top: 34px;
+    padding-bottom: 44px;
+};
+
+.hero-main-page_title{
+padding-left: 20px;
+padding-right: 20px;
+padding-bottom: 18px;
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

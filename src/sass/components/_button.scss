@@ -1,5 +1,5 @@
 .button{
-display: inline-block;
+display: block;
 width: 342px;
 padding-top: 18px;
 padding-bottom: 18px;
@@ -8,6 +8,8 @@ background-image: linear-gradient(90deg, #FFB34C -1.82%, #FF3573 49.74%, #FF3C46
 color: var(--text-white);
 text-align: center;
 align-items:center;
+margin-left: auto;
+margin-right: auto;
 font-size: 20px;
 font-weight: 600;
 line-height: 1.2;

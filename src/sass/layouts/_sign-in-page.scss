@@ -1,7 +1,80 @@
 .img-sign-in{
+    display: block;
 padding-top: 78px;
 padding-bottom: 63px;
 margin-left: auto;
 margin-right: auto;
 };
+
+.text-sign-in{
+    padding-top: 12px;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-bottom: 53px;
+    margin-left: auto;
+    margin-right: auto;
+};
+
+.form-sign-in{
+    display: block;  
+    text-align: center;
+    padding-bottom: 54px;
+};
+
+.form-sign-in_container{
+display: inline-block;
+position: relative;
+padding-bottom: 40px;
+};
+
+.form-sign-in_icon{
+position: absolute;
+top:18px;
+left:25px;
+fill:rgba(29, 29, 29, 1);
+};
+
+.form-sign-in_input{
+    padding: 21px 41px 20px 60px;
+    width: 343px;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+    background-color: #F2F2F2;
+    border-radius: 100px;
+    font-size: 16px;
+    line-height: 1.19;  
+    color: var(--text-footer-color);
+        transition: box-shadow  250ms  cubic-bezier(0.4, 0, 0.2, 1);
+    
+    &:hover,
+    &:focus {
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+            0px 1px 1px rgba(0, 0, 0, 0.14),
+            0px 2px 1px rgba(0, 0, 0, 0.2);
+    };
+};
+
+.footer-sign-in{
+    padding-bottom: 37px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.2;
+    color: var(--text-footer-color);
+};
+
+.footer-sign-in_link{
+    display: inline-block;
+    padding-top: 8px;
+    padding-bottom: 29px;
+
+    &:hover,
+    &:focus{
+        color:#007AFF;
+        text-decoration: underline;
+    };
+};
+
+
+
 

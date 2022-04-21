@@ -15,7 +15,7 @@
   <body>
     <main>
       <div class="container">
-        <section class="">
+        <section>
           <img
             class="img-sign-in"
             srcset="
@@ -25,23 +25,28 @@
             src="../images/images/sign-in-mobile.png"
             alt="picture"
           />
-          <h1 class="title">Instagram Account</h1>
-          <p class="text">
+          <h1 class="title-sign-in title">Instagram Account</h1>
+          <p class="text-sign-in text">
             Enter your Instagram username to get full data analysis
           </p>
-          <form action="">
-            <label>
-              <input type="email" name="email" />
+          <form class="form-sign-in">
+            <label class="form-sign-in_label">
+              <span class="form-sign-in_container">
+                <input class="form-sign-in_input" type="text" name="username" />
+                <svg class="form-sign-in_icon" width="23" height="23">
+                  <use
+                    href="../images/icons/symbol-defs.svg#icon-Text-regular---16-pt"
+                  ></use>
+                </svg>
+              </span>
             </label>
-            <button class="button" type="submit">Get my analysis</button>
+            <a class="button" href="./main-1.html">Get my analysis</a>
           </form>
         </section>
-        <footer>
-          <p class="footer-text">Forgotten your account name?</p>
-          <a href="">Skip this step</a>
-          <p class="footer-text">
-            Copyright&#169; 2022 FreshJuiceMobile. All rights Reserved
-          </p>
+        <footer class="footer-sign-in">
+          <p>Forgotten your account name?</p>
+          <a class="footer-sign-in_link" href="">Skip this step</a>
+          <p>Copyright&#169; 2022 FreshJuiceMobile. All rights Reserved</p>
         </footer>
       </div>
     </main>
