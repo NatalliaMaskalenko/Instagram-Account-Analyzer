@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Instagram Account Analyzer" />
-    <title>Instagram Account Analyzer | Create account</title>
+    <meta name="description" content="event booster" />
+    <title>Instagram Account Analyzer | Cansel subscription</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
@@ -14,7 +14,7 @@
   </head>
   <body>
     <main>
-      <div class="container_create-page container">
+      <div class="container_cansel-page container">
         <section class="header-section">
           <img
             class="header-section-img"
@@ -52,24 +52,29 @@
     </main>
 
     <!-- Modal -->
+
+    <!-- <svg class="modal__icon">
+              <use href="../images/icons/symbol-defs.svg#icon-cross"></use>
+            </svg> -->
+
     <div class="backdrop" data-modal>
-      <div class="modal__create-page">
-        <h1 class="modal__title-create-page title">
-          <span>Create Your InstaTrack Account</span>
-        </h1>
-        <p class="modal__text-create-page">
-          You need set up an account to access the application
-        </p>
+      <div class="modal">
+        <h1 class="modal__title">Create Your InstaTrack Account</h1>
+        <p>You need set up an account to access the application</p>
 
-        <a class="modal__button-create-page" href=""
-          ><img src="../images/images/apple.svg" alt="" />Sign in with Apple
-        </a>
-        <p>or</p>
+        <form class="form">
+          <label class="form__label">
+            <span class="form__container">
+              <input class="form__field" type="text" name="username" />
+            </span>
+          </label>
 
-        <a lass="modal__button-create-page" href="">
-          <img src="../images/images/google.svg" alt="" />
-          <span>Sign up with Google</span>
-        </a>
+          <label class="form__label form__label--name">
+            <span class="form__container form__container-name">
+              <input type="text" name="username" />
+            </span>
+          </label>
+        </form>
       </div>
     </div>
   </body>

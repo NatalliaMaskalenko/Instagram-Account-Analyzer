@@ -28,12 +28,11 @@
     left: 50%;
     width: 414px;
     transform: translate(-50%, -50%) scale(1);
-    padding-left: 16px;
-    padding-right: 16px;
     padding-top: 27px;
     padding-bottom: 43px;
+    padding-left: 36px;
+    padding-right: 36px;
 
-    max-height: 609px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -79,8 +78,6 @@
 };
 
 .form{
-    padding-left: 36px;
-    padding-right: 36px;
     padding-top: 36px;
     padding-bottom: 51px;
 }
@@ -95,10 +92,10 @@
 
 .form__container{
     display: block;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 24px;
-    padding-right: 24px;
+    padding-top: 19px;
+    padding-bottom: 19px;
+    padding-left: 21px;
+    padding-right: 21px;
     background-color: #f2f2f2;
     border: 1px solid #DDDDDD;
     border-radius: 50px;
@@ -110,7 +107,7 @@
     outline: none;
     font-size: 18px;
     font-weight: 500;
-    line-height: 1;
+    line-height: 1.18;
 };
 
 .form__label{
@@ -132,6 +129,52 @@
     width: 106px;
 };
 
-.form_wrap-card{
+.form_wrap-card {
     display: flex;
+    justify-content: space-between;
+};
+
+.form_label_input{
+    display: flex;
+};
+
+.form_field-card{
+    width: 53px;
+};
+
+.form_container-card-accent{
+    margin-right: 8px;
+};
+
+.form-footer{
+    position: absolute;
+    top: 685px;
+    left: 50%;
+    width: 414px;
+    transform: translate(-50%, -50%) scale(1);
+    padding-top: 34px;
+    padding-bottom: 43px;
+    padding-left: 36px;
+    padding-right: 36px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-image: linear-gradient(249.71deg, #6863C8 1.43%, #9D73E1 100%);;
+};
+
+.form-footer-title{
+    padding-bottom: 3px;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 1.9;
+    text-align: center;
+    color: #FFFFFF;    
+};
+
+.form-footer-text{
+    padding-bottom: 30px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 1.18;
+    text-align: center;
+    color: #FFFFFF;
 };
