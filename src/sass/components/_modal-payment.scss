@@ -138,8 +138,17 @@
     display: flex;
 };
 
-.form_field-card{
+.form__field-card{
     width: 53px;
+};
+
+.form__field-data{
+   width: 30px;
+};
+
+.form__container-data{
+padding-left: 30px;
+padding-right: 30px;
 };
 
 .form_container-card-accent{

@@ -1,0 +1,16 @@
+.container-tutorial {
+    margin-left: auto;
+    margin-right: auto;
+    width: 414px;
+    background-image: url('/images/images/bg-home-mobile.png');
+    background-position: center top;
+    background-repeat: no-repeat;
+
+    @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        background-image: url('/images/images/bg-home-mobile@2x.png');
+    }    
+}
+

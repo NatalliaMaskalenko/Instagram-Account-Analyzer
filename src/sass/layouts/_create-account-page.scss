@@ -43,28 +43,6 @@
     text-align: center;
 };
 
-.modal__button-create-page {
-    display: block;
-    width: 342px;
-    padding-top: 18px;
-    padding-bottom: 18px;
-    border-radius: 100px;
-    border: 1px solid #DDDDDD;
-    color: var(--text-white);
-    text-align: center;
-    align-items: center;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 17px;
-    font-weight: 600;
-    line-height: 1.18;
-    transition: border-color box-shadow 250ms 250ms cubic-bezier(0.4, 0, 0.2, 1) cubic-bezier(0.4, 0, 0.2, 1);
-
-    &:hover,
-    &:focus {
-        border-color: #9D73E1;
-        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
-            0px 1px 1px rgba(0, 0, 0, 0.14),
-            0px 2px 1px rgba(0, 0, 0, 0.2);
-    };
-};
+.modal__text-create-page{
+    padding-bottom: 61px;
+}

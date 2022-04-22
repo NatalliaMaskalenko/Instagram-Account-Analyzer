@@ -2,7 +2,7 @@
 @import "./base/common";
 @import "./base/container";
 @import "./base/fonts";
-@import "./components/container-home";
+@import "./components/container-home-page";
 @import "./components/container-welcome-page-first";
 @import "./components/button";
 @import "./components/container-welcome-page-second";
@@ -13,7 +13,9 @@
 @import "./components/timer";
 @import "./components/header-section-short";
 @import "./components/modal-payment";
-@import "./components/_container-create-account-page";
+@import "./components/container-create-account-page";
+@import "./components/registration";
+@import "./components/container-tutorial-page";
 
 
 
@@ -23,4 +25,6 @@
 @import "./layouts/sign-in-page";
 @import "./layouts/main-page";
 @import "./layouts/main-page-2";
-@import "./layouts/create-account";
+@import "./layouts/create-account-page";
+@import "./layouts/cansel-subscription-page";
+@import "./layouts/tutorial-page";

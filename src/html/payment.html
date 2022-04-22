@@ -46,7 +46,7 @@
             </div>
           </div>
 
-          <a class="button" href="./create-acount.html">Get InstaTracker</a>
+          <a class="button" href="./create-acсount.html">Get InstaTracker</a>
         </section>
       </div>
     </main>
@@ -68,7 +68,14 @@
           <label class="form__label">
             <span class="form__text">Email:</span>
             <span class="form__container">
-              <input class="form__field" type="text" name="username" />
+              <input
+                class="form__field"
+                type="email"
+                name="mail"
+                placeholder="vika@fjmobile.io"
+                required
+                autofocus
+              />
             </span>
           </label>
 
@@ -80,6 +87,8 @@
                   class="form__field form__field-name"
                   type="text"
                   name="username"
+                  placeholder="Viktoria"
+                  required
                 />
               </span>
             </label>
@@ -90,7 +99,9 @@
                 <input
                   class="form__field form__field-name"
                   type="text"
-                  name="username"
+                  name="userlastname"
+                  placeholder="Nazarenko"
+                  required
                 />
               </span>
             </label>
@@ -99,7 +110,16 @@
           <label class="form__label">
             <span class="form__text">Card Number:</span>
             <span class="form__container">
-              <input class="form__field" type="text" name="username" />
+              <input
+                class="form__field"
+                type="text"
+                name="cardnumber"
+                placeholder="1234 5678 9123"
+                required
+                minlength="12"
+                maxlength="12"
+                pattern="[0-9]{12}"
+              />
             </span>
           </label>
 
@@ -108,20 +128,32 @@
               <span class="form__text">Expires on:</span>
               <div class="form_label_input">
                 <span
-                  class="form__container form_container-card form_container-card-accent"
+                  class="form__container form_container-card form__container-data form_container-card-accent"
                 >
                   <input
-                    class="form__field form_field-card"
+                    class="form__field form__field-card form__field-data"
                     type="text"
-                    name="username"
+                    name="month"
+                    placeholder="09"
+                    required
+                    minlength="2"
+                    maxlength="2"
+                    pattern="[0-9]{2}"
                   />
                 </span>
 
-                <span class="form__container form-container-card">
+                <span
+                  class="form__container form-container-card form__container-data"
+                >
                   <input
-                    class="form__field form_field-card"
+                    class="form__field form__field-card form__field-data"
                     type="text"
-                    name="username"
+                    name="year"
+                    placeholder="25"
+                    required
+                    minlength="2"
+                    maxlength="2"
+                    pattern="[0-9]{2}"
                   />
                 </span>
               </div>
@@ -131,9 +163,14 @@
               <span class="form__text">CVC:</span>
               <span class="form__container form-container-card">
                 <input
-                  class="form__field form_field-card"
+                  class="form__field form__field-card"
                   type="text"
-                  name="username"
+                  name="cvc"
+                  placeholder="123"
+                  required
+                  minlength="3"
+                  maxlength="3"
+                  pattern="[0-9]{3}"
                 />
               </span>
             </label>
@@ -143,7 +180,7 @@
         <div class="form-footer">
           <h1 class="form-footer-title">$2.99</h1>
           <p class="form-footer-text">per 1-Month plan</p>
-          <a class="button" href="">Get Plan</a>
+          <button type="submit" class="button">Get Plan</button>
         </div>
       </div>
     </div>

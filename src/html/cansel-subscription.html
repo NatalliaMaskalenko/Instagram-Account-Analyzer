@@ -46,7 +46,7 @@
             </div>
           </div>
 
-          <a class="button" href="./create-acount.html">Get InstaTracker</a>
+          <a class="button" href="./tutorial.html">Get InstaTracker</a>
         </section>
       </div>
     </main>
@@ -58,22 +58,27 @@
             </svg> -->
 
     <div class="backdrop" data-modal>
-      <div class="modal">
-        <h1 class="modal__title">Create Your InstaTrack Account</h1>
-        <p>You need set up an account to access the application</p>
+      <div class="modal modal__wrap-cansel-page">
+        <h1 class="title">Terminate subscription</h1>
+        <p class="text modal__text-cansel-page">
+          To cancel your subscription - please use the mail used to purchase
+        </p>
 
-        <form class="form">
-          <label class="form__label">
-            <span class="form__container">
-              <input class="form__field" type="text" name="username" />
+        <form class="form form-cansel-page">
+          <label class="form__label form__label-cansel-page">
+            <span class="form__container form__container-cansel-page">
+              <input
+                class="form__field form__field-cansel-page"
+                type="email"
+                name="email"
+                required
+                placeholder="Email"
+                autofocus
+              />
             </span>
           </label>
 
-          <label class="form__label form__label--name">
-            <span class="form__container form__container-name">
-              <input type="text" name="username" />
-            </span>
-          </label>
+          <button class="button" type="submit">Cancel Subscription</button>
         </form>
       </div>
     </div>
