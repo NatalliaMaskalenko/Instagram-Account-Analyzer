@@ -94,31 +94,51 @@
           <p class="footer__text-sale">
             Complete your profile and get valuable insights today!
           </p>
-          <form action="">
-            <label>
-              <div>
-                <span>1-Month</span>
-                <span>$2.99</span>
-                <span>$7.99</span>
-              </div>
-              <span>
-                <input type="radio" name="month" value="one-month" />
-              </span>
-            </label>
-            <label>
-              <div>
-                <span>12-Month</span>
-                <span>$17.99</span>
-                <span>$25.99</span>
-              </div>
+          <form class="c" action="">
+            <label class="footer__label-sale">
               <span>
                 <input
+                  class="footer__checkbox-sale visually-hidden"
+                  type="radio"
+                  name="month"
+                  value="one-month"
+                />
+              </span>
+              <svg class="footer__svg-sale">
+                <use
+                  href="../images/icons/symbol-defs.svg#icon-Icon-awesome-check"
+                ></use>
+              </svg>
+              <div class="footer__box-sale">
+                <span>1-Month</span>
+                <div lass="footer__inner-sale">
+                  <span>$2.99</span>
+                  <span class="footer__desc-sale">$7.99</span>
+                </div>
+              </div>
+            </label>
+            <label class="footer__label-sale">
+              <span>
+                <input
+                  class="footer__checkbox-sale visually-hidden"
                   type="radio"
                   name="month"
                   value="twelve-months"
                   checked
                 />
               </span>
+              <svg class="footer__svg-sale">
+                <use
+                  href="../images/icons/symbol-defs.svg#icon-Icon-awesome-check"
+                ></use>
+              </svg>
+              <div class="footer__box-sale">
+                <span>12-Month</span>
+                <div class="footer__inner-sale">
+                  <span>$17.99</span>
+                  <span class="footer__desc-sale">$25.99</span>
+                </div>
+              </div>
             </label>
           </form>
           <div>
