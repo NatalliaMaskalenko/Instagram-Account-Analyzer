@@ -6,7 +6,7 @@
     padding-left: 107px;
     padding-right: 107px;
     align-items: center;
-};
+}
 
 .field{
     width: 87px;
@@ -18,7 +18,7 @@
     padding-right: 12px;
     padding-top: 19px;
     padding-bottom: 19px;
-    };
+    }
 
     .field-accent{
         margin-right: 8px;
@@ -29,7 +29,7 @@
     font-size: 48px;
     line-height: 57px;
     color: var(--main-text-color);
-};
+}
 
 .timer-point{
     display: flex;
@@ -42,5 +42,5 @@
    
     &:not(:last-child){
         margin-bottom: 10px;
-    };
-};
+    }
+}
