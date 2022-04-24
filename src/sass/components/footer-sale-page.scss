@@ -29,14 +29,14 @@
 .footer__label-sale{
     position: relative;
     display: flex;
-    align-items: center;
+    align-items: center;    
     width: 342px;
     height: 60px;
     border-radius: 10px;
     border: 2.75631px solid rgba(230, 230, 230, 0.14);
     padding-left: 57px;
-    padding-top: 12px;
-    padding-bottom: 12px;
+    padding-right: 18px;
+    
     margin-left: auto;
     margin-right: auto;
     font-weight: 600;
@@ -44,38 +44,43 @@
     line-height: 1.2;
     color: var(--text-white);
 
-
     &:not(:last-child){
         margin-bottom: 26px;
     }
+
+    &:hover,
+    &:focus{
+        border: 2.75631px solid #E6E6E6;
+    }    
 }
 
-.footer__svg-sale {
+.footer__check-sale {
     position: absolute;
     top: 50%;
     left: 18px;
-    
     transform: translateY(-50%);
-    
     width: 22px;
     height: 17px;
-    border: 2px solid var(--color-text-major);
-    border-radius: 1px;
-    border-radius: 2px;
-    
-    background-color: transparent;
+     background-color: transparent;
 }
+
+.footer__checkbox-sale:checked +.footer__check-sale{ 
+    background-image: url('/images/icons/Icon\ awesome-check.svg');    
+    }
 
 .footer__box-sale{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 267px;
 }
 
 .footer__inner-sale{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 12px;
+    padding-bottom: 12px;   
 }
 
 .footer__desc-sale{
@@ -84,3 +89,7 @@
     line-height: 1.2;
     text-decoration-line: line-through;
 }
+
+
+
+
